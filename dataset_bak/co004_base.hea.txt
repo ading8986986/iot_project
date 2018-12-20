@@ -1,0 +1,9 @@
+co004_base 6 100 6901
+co004_base.dat 16 43523.8438(-48406)/g 0 0 -12536 26489 0 v-acceleration
+co004_base.dat 16 38976.2719(-1347)/g 0 0 224 7720 0 ml-acceleration
+co004_base.dat 16 36256.5629(28265)/g 0 0 15808 -20253 0 ap-acceleration
+co004_base.dat 16 365.8637(9728)/degrees/s 0 0 17870 -15721 0 yaw-velocity
+co004_base.dat 16 427.7864(-3587)/degrees/s 0 0 -2876 11109 0 pitch-velocity
+co004_base.dat 16 413.4719(22)/degrees/s 0 0 -10606 1471 0 roll-velocity
+#Age:69.18
+#Sex:F

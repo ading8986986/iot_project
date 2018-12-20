@@ -1,0 +1,9 @@
+fl007_base 6 100 4801
+fl007_base.dat 16 53398.0735(-60528)/g 0 0 -11529 -8029 0 v-acceleration
+fl007_base.dat 16 59122.4484(-1277)/g 0 0 -7234 9458 0 ml-acceleration
+fl007_base.dat 16 59526.7167(12331)/g 0 0 16556 32448 0 ap-acceleration
+fl007_base.dat 16 288.0716(-18183)/degrees/s 0 0 -17966 18416 0 yaw-velocity
+fl007_base.dat 16 946.5586(5417)/degrees/s 0 0 5018 26062 0 pitch-velocity
+fl007_base.dat 16 592.7618(-2193)/degrees/s 0 0 -2131 32317 0 roll-velocity
+#Age:75.44
+#Sex:F
