@@ -67,7 +67,8 @@ class GaitDataset:
     def initVars(self):
         files = listdir(self.filePath)
         files.sort()
-        del files[0]  # .DS_Store file useless
+        # del files[0]  # .DS_Store file useless
+        print('len(files)=', len(files))
 
         for index, file in enumerate(files):
 
@@ -148,6 +149,8 @@ class GaitDataset:
                     self.fallerParams.append(newitem)
         print('len(self.fallerParams)',len(self.fallerParams))
         print('len(self.faller_ap_acc)', len(self.faller_ap_acc))
+        print('len(self.nonfallerParams)', len(self.nonfallerParams))
+        print('len(self.nonfaller_ap_acc)', len(self.nonfaller_ap_acc))
 
     # scale
     def rearrageVars(self):
@@ -180,6 +183,9 @@ class GaitDataset:
 
 
         for index, head in enumerate(self.nonfallerParams):
+            # print('index=', index)
+            # print('self.nonfaller_v_acc[index]=', self.nonfaller_v_acc[index])
+            # print('head[\'v_acc\'][1]=', head['v_acc'][1])
             self.nonfaller_v_acc[index] = self.nonfaller_v_acc[index] - head['v_acc'][1]  # subtract baseline
             self.nonfaller_ml_acc[index] = self.nonfaller_ml_acc[index] - head['ml_acc'][1]
             self.nonfaller_ap_acc[index] = self.nonfaller_ap_acc[index] - head['app_acc'][1]
