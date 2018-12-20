@@ -1,0 +1,9 @@
+fl025_base 6 100 6301
+fl025_base.dat 16 85170.1037(-106854)/g 0 0 -16384 1543 0 v-acceleration
+fl025_base.dat 16 141580.744(8192)/g 0 0 11878 24498 0 ml-acceleration
+fl025_base.dat 16 111926.8805(-2920)/g 0 0 12653 -3075 0 ap-acceleration
+fl025_base.dat 16 349.716(-20775)/degrees/s 0 0 -18287 -13454 0 yaw-velocity
+fl025_base.dat 16 1251.4833(-2493)/degrees/s 0 0 -125 -4018 0 pitch-velocity
+fl025_base.dat 16 1024.4727(684)/degrees/s 0 0 8355 19678 0 roll-velocity
+#Age:83
+#Sex:F
